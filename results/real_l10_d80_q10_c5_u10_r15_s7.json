@@ -1,0 +1,45 @@
+{
+  "scenario": "real_l10_d80_q10_c5_u10_r15_s7",
+  "engine": "real",
+  "model": "Real TCP/UDP localhost sockets + application relay (not kernel impairment)",
+  "loss_percent": 10.0,
+  "delay_ms": 80.0,
+  "queue_packets": 10,
+  "seed": 7,
+  "corruption_percent": 5.0,
+  "duplication_percent": 10.0,
+  "reordering_percent": 15.0,
+  "metrics": {
+    "tcp": {
+      "sent_packets": 36,
+      "received_packets": 33,
+      "delivery_ratio_percent": 91.67,
+      "unreceived_packets": 3,
+      "trace_drop_events": 3,
+      "throughput_kbps": 577.21,
+      "average_delay_ms": 101.78,
+      "retransmission_estimate": 0,
+      "corrupted_packets": 0,
+      "duplicate_packets": 1,
+      "reordered_packets": 2,
+      "integrity_percent": 100.0,
+      "duration_seconds": 0.234
+    },
+    "udp": {
+      "sent_packets": 36,
+      "received_packets": 30,
+      "delivery_ratio_percent": 83.33,
+      "unreceived_packets": 6,
+      "trace_drop_events": 3,
+      "throughput_kbps": 576.76,
+      "average_delay_ms": 93.85,
+      "retransmission_estimate": 0,
+      "corrupted_packets": 3,
+      "duplicate_packets": 1,
+      "reordered_packets": 3,
+      "integrity_percent": 90.91,
+      "duration_seconds": 0.213
+    }
+  },
+  "event_trace_file": "real_l10_d80_q10_c5_u10_r15_s7.events.json"
+}

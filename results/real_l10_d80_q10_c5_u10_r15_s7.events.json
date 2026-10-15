@@ -1,0 +1,872 @@
+[
+  {
+    "protocol": "tcp",
+    "seq": 5,
+    "event": "relay_drop",
+    "time_ms": 3.754
+  },
+  {
+    "protocol": "tcp",
+    "seq": 22,
+    "event": "relay_drop",
+    "time_ms": 4.967
+  },
+  {
+    "protocol": "tcp",
+    "seq": 28,
+    "event": "relay_drop",
+    "time_ms": 5.429
+  },
+  {
+    "protocol": "tcp",
+    "seq": 0,
+    "event": "relay_forward",
+    "time_ms": 90.555
+  },
+  {
+    "protocol": "tcp",
+    "seq": 1,
+    "event": "relay_forward",
+    "time_ms": 90.699
+  },
+  {
+    "protocol": "tcp",
+    "seq": 2,
+    "event": "relay_forward",
+    "time_ms": 90.847
+  },
+  {
+    "protocol": "tcp",
+    "seq": 3,
+    "event": "relay_forward",
+    "time_ms": 90.891
+  },
+  {
+    "protocol": "tcp",
+    "seq": 6,
+    "event": "relay_forward",
+    "time_ms": 90.97
+  },
+  {
+    "protocol": "tcp",
+    "seq": 7,
+    "event": "relay_forward",
+    "time_ms": 91.039
+  },
+  {
+    "protocol": "tcp",
+    "seq": 8,
+    "event": "relay_forward",
+    "time_ms": 91.132
+  },
+  {
+    "protocol": "tcp",
+    "seq": 9,
+    "event": "relay_forward",
+    "time_ms": 91.293
+  },
+  {
+    "protocol": "tcp",
+    "seq": 10,
+    "event": "relay_forward",
+    "time_ms": 91.377
+  },
+  {
+    "protocol": "tcp",
+    "seq": 11,
+    "event": "relay_forward",
+    "time_ms": 91.438
+  },
+  {
+    "protocol": "tcp",
+    "seq": 12,
+    "event": "relay_forward",
+    "time_ms": 91.47
+  },
+  {
+    "protocol": "tcp",
+    "seq": 13,
+    "event": "relay_forward",
+    "time_ms": 91.551
+  },
+  {
+    "protocol": "tcp",
+    "seq": 14,
+    "event": "relay_forward",
+    "time_ms": 91.64
+  },
+  {
+    "protocol": "tcp",
+    "seq": 15,
+    "event": "relay_forward",
+    "time_ms": 91.715
+  },
+  {
+    "protocol": "tcp",
+    "seq": 16,
+    "event": "relay_forward",
+    "time_ms": 91.777
+  },
+  {
+    "protocol": "tcp",
+    "seq": 16,
+    "event": "relay_forward",
+    "time_ms": 91.889
+  },
+  {
+    "protocol": "tcp",
+    "seq": 17,
+    "event": "relay_forward",
+    "time_ms": 91.96
+  },
+  {
+    "protocol": "tcp",
+    "seq": 18,
+    "event": "relay_forward",
+    "time_ms": 91.989
+  },
+  {
+    "protocol": "tcp",
+    "seq": 19,
+    "event": "relay_forward",
+    "time_ms": 92.05
+  },
+  {
+    "protocol": "tcp",
+    "seq": 20,
+    "event": "relay_forward",
+    "time_ms": 92.122
+  },
+  {
+    "protocol": "tcp",
+    "seq": 21,
+    "event": "relay_forward",
+    "time_ms": 92.159
+  },
+  {
+    "protocol": "tcp",
+    "seq": 25,
+    "event": "relay_forward",
+    "time_ms": 92.273
+  },
+  {
+    "protocol": "tcp",
+    "seq": 26,
+    "event": "relay_forward",
+    "time_ms": 92.305
+  },
+  {
+    "protocol": "tcp",
+    "seq": 27,
+    "event": "relay_forward",
+    "time_ms": 92.404
+  },
+  {
+    "protocol": "tcp",
+    "seq": 29,
+    "event": "relay_forward",
+    "time_ms": 92.435
+  },
+  {
+    "protocol": "tcp",
+    "seq": 30,
+    "event": "relay_forward",
+    "time_ms": 92.568
+  },
+  {
+    "protocol": "tcp",
+    "seq": 31,
+    "event": "relay_forward",
+    "time_ms": 92.672
+  },
+  {
+    "protocol": "tcp",
+    "seq": 33,
+    "event": "relay_forward",
+    "time_ms": 92.708
+  },
+  {
+    "protocol": "tcp",
+    "seq": 34,
+    "event": "relay_forward",
+    "time_ms": 92.795
+  },
+  {
+    "protocol": "tcp",
+    "seq": 35,
+    "event": "relay_forward",
+    "time_ms": 92.899
+  },
+  {
+    "protocol": "tcp",
+    "seq": 4,
+    "event": "relay_forward",
+    "time_ms": 145.713
+  },
+  {
+    "protocol": "tcp",
+    "seq": 23,
+    "event": "relay_forward",
+    "time_ms": 149.72
+  },
+  {
+    "protocol": "tcp",
+    "seq": 32,
+    "event": "relay_forward",
+    "time_ms": 159.293
+  },
+  {
+    "protocol": "tcp",
+    "seq": 24,
+    "event": "relay_forward",
+    "time_ms": 234.176
+  },
+  {
+    "protocol": "tcp",
+    "seq": 0,
+    "event": "received",
+    "time_ms": 90.83
+  },
+  {
+    "protocol": "tcp",
+    "seq": 1,
+    "event": "received",
+    "time_ms": 90.947
+  },
+  {
+    "protocol": "tcp",
+    "seq": 2,
+    "event": "received",
+    "time_ms": 91.019
+  },
+  {
+    "protocol": "tcp",
+    "seq": 3,
+    "event": "received",
+    "time_ms": 91.09
+  },
+  {
+    "protocol": "tcp",
+    "seq": 6,
+    "event": "received",
+    "time_ms": 91.269
+  },
+  {
+    "protocol": "tcp",
+    "seq": 7,
+    "event": "received",
+    "time_ms": 91.355
+  },
+  {
+    "protocol": "tcp",
+    "seq": 8,
+    "event": "received",
+    "time_ms": 91.427
+  },
+  {
+    "protocol": "tcp",
+    "seq": 9,
+    "event": "received",
+    "time_ms": 91.521
+  },
+  {
+    "protocol": "tcp",
+    "seq": 10,
+    "event": "received",
+    "time_ms": 91.617
+  },
+  {
+    "protocol": "tcp",
+    "seq": 11,
+    "event": "received",
+    "time_ms": 91.692
+  },
+  {
+    "protocol": "tcp",
+    "seq": 12,
+    "event": "received",
+    "time_ms": 91.764
+  },
+  {
+    "protocol": "tcp",
+    "seq": 13,
+    "event": "received",
+    "time_ms": 91.828
+  },
+  {
+    "protocol": "tcp",
+    "seq": 14,
+    "event": "received",
+    "time_ms": 91.876
+  },
+  {
+    "protocol": "tcp",
+    "seq": 15,
+    "event": "received",
+    "time_ms": 91.947
+  },
+  {
+    "protocol": "tcp",
+    "seq": 16,
+    "event": "received",
+    "time_ms": 92.034
+  },
+  {
+    "protocol": "tcp",
+    "seq": 16,
+    "event": "duplicate",
+    "time_ms": 92.109
+  },
+  {
+    "protocol": "tcp",
+    "seq": 17,
+    "event": "received",
+    "time_ms": 92.206
+  },
+  {
+    "protocol": "tcp",
+    "seq": 18,
+    "event": "received",
+    "time_ms": 92.259
+  },
+  {
+    "protocol": "tcp",
+    "seq": 19,
+    "event": "received",
+    "time_ms": 92.349
+  },
+  {
+    "protocol": "tcp",
+    "seq": 20,
+    "event": "received",
+    "time_ms": 92.392
+  },
+  {
+    "protocol": "tcp",
+    "seq": 21,
+    "event": "received",
+    "time_ms": 92.48
+  },
+  {
+    "protocol": "tcp",
+    "seq": 25,
+    "event": "received",
+    "time_ms": 92.522
+  },
+  {
+    "protocol": "tcp",
+    "seq": 26,
+    "event": "received",
+    "time_ms": 92.553
+  },
+  {
+    "protocol": "tcp",
+    "seq": 27,
+    "event": "received",
+    "time_ms": 92.658
+  },
+  {
+    "protocol": "tcp",
+    "seq": 29,
+    "event": "received",
+    "time_ms": 92.761
+  },
+  {
+    "protocol": "tcp",
+    "seq": 30,
+    "event": "received",
+    "time_ms": 92.877
+  },
+  {
+    "protocol": "tcp",
+    "seq": 31,
+    "event": "received",
+    "time_ms": 92.931
+  },
+  {
+    "protocol": "tcp",
+    "seq": 33,
+    "event": "received",
+    "time_ms": 92.972
+  },
+  {
+    "protocol": "tcp",
+    "seq": 34,
+    "event": "received",
+    "time_ms": 93.001
+  },
+  {
+    "protocol": "tcp",
+    "seq": 35,
+    "event": "received",
+    "time_ms": 93.033
+  },
+  {
+    "protocol": "tcp",
+    "seq": 4,
+    "event": "received",
+    "time_ms": 145.983
+  },
+  {
+    "protocol": "tcp",
+    "seq": 23,
+    "event": "received",
+    "time_ms": 149.838
+  },
+  {
+    "protocol": "tcp",
+    "seq": 32,
+    "event": "received",
+    "time_ms": 159.43
+  },
+  {
+    "protocol": "tcp",
+    "seq": 24,
+    "event": "received",
+    "time_ms": 234.496
+  },
+  {
+    "protocol": "udp",
+    "seq": 12,
+    "event": "relay_drop",
+    "time_ms": 3.484
+  },
+  {
+    "protocol": "udp",
+    "seq": 18,
+    "event": "relay_corrupt",
+    "time_ms": 5.05
+  },
+  {
+    "protocol": "udp",
+    "seq": 23,
+    "event": "relay_drop",
+    "time_ms": 6.339
+  },
+  {
+    "protocol": "udp",
+    "seq": 26,
+    "event": "relay_drop",
+    "time_ms": 7.112
+  },
+  {
+    "protocol": "udp",
+    "seq": 33,
+    "event": "relay_corrupt",
+    "time_ms": 8.391
+  },
+  {
+    "protocol": "udp",
+    "seq": 34,
+    "event": "relay_corrupt",
+    "time_ms": 8.534
+  },
+  {
+    "protocol": "udp",
+    "seq": 0,
+    "event": "relay_forward",
+    "time_ms": 86.065
+  },
+  {
+    "protocol": "udp",
+    "seq": 1,
+    "event": "relay_forward",
+    "time_ms": 86.312
+  },
+  {
+    "protocol": "udp",
+    "seq": 2,
+    "event": "relay_forward",
+    "time_ms": 86.483
+  },
+  {
+    "protocol": "udp",
+    "seq": 3,
+    "event": "relay_forward",
+    "time_ms": 86.606
+  },
+  {
+    "protocol": "udp",
+    "seq": 5,
+    "event": "relay_forward",
+    "time_ms": 86.715
+  },
+  {
+    "protocol": "udp",
+    "seq": 6,
+    "event": "relay_forward",
+    "time_ms": 86.82
+  },
+  {
+    "protocol": "udp",
+    "seq": 7,
+    "event": "relay_forward",
+    "time_ms": 86.927
+  },
+  {
+    "protocol": "udp",
+    "seq": 8,
+    "event": "relay_forward",
+    "time_ms": 87.03
+  },
+  {
+    "protocol": "udp",
+    "seq": 9,
+    "event": "relay_forward",
+    "time_ms": 87.135
+  },
+  {
+    "protocol": "udp",
+    "seq": 10,
+    "event": "relay_forward",
+    "time_ms": 87.238
+  },
+  {
+    "protocol": "udp",
+    "seq": 11,
+    "event": "relay_forward",
+    "time_ms": 87.348
+  },
+  {
+    "protocol": "udp",
+    "seq": 13,
+    "event": "relay_forward",
+    "time_ms": 87.503
+  },
+  {
+    "protocol": "udp",
+    "seq": 14,
+    "event": "relay_forward",
+    "time_ms": 87.558
+  },
+  {
+    "protocol": "udp",
+    "seq": 15,
+    "event": "relay_forward",
+    "time_ms": 87.746
+  },
+  {
+    "protocol": "udp",
+    "seq": 17,
+    "event": "relay_forward",
+    "time_ms": 87.843
+  },
+  {
+    "protocol": "udp",
+    "seq": 18,
+    "event": "relay_forward",
+    "time_ms": 87.935
+  },
+  {
+    "protocol": "udp",
+    "seq": 19,
+    "event": "relay_forward",
+    "time_ms": 87.978
+  },
+  {
+    "protocol": "udp",
+    "seq": 20,
+    "event": "relay_forward",
+    "time_ms": 88.083
+  },
+  {
+    "protocol": "udp",
+    "seq": 21,
+    "event": "relay_forward",
+    "time_ms": 88.178
+  },
+  {
+    "protocol": "udp",
+    "seq": 22,
+    "event": "relay_forward",
+    "time_ms": 88.253
+  },
+  {
+    "protocol": "udp",
+    "seq": 24,
+    "event": "relay_forward",
+    "time_ms": 88.318
+  },
+  {
+    "protocol": "udp",
+    "seq": 25,
+    "event": "relay_forward",
+    "time_ms": 88.404
+  },
+  {
+    "protocol": "udp",
+    "seq": 28,
+    "event": "relay_forward",
+    "time_ms": 88.442
+  },
+  {
+    "protocol": "udp",
+    "seq": 29,
+    "event": "relay_forward",
+    "time_ms": 88.526
+  },
+  {
+    "protocol": "udp",
+    "seq": 30,
+    "event": "relay_forward",
+    "time_ms": 88.595
+  },
+  {
+    "protocol": "udp",
+    "seq": 31,
+    "event": "relay_forward",
+    "time_ms": 88.689
+  },
+  {
+    "protocol": "udp",
+    "seq": 32,
+    "event": "relay_forward",
+    "time_ms": 88.795
+  },
+  {
+    "protocol": "udp",
+    "seq": 33,
+    "event": "relay_forward",
+    "time_ms": 88.831
+  },
+  {
+    "protocol": "udp",
+    "seq": 34,
+    "event": "relay_forward",
+    "time_ms": 88.955
+  },
+  {
+    "protocol": "udp",
+    "seq": 35,
+    "event": "relay_forward",
+    "time_ms": 88.989
+  },
+  {
+    "protocol": "udp",
+    "seq": 27,
+    "event": "relay_forward",
+    "time_ms": 108.392
+  },
+  {
+    "protocol": "udp",
+    "seq": 35,
+    "event": "relay_forward",
+    "time_ms": 108.454
+  },
+  {
+    "protocol": "udp",
+    "seq": 16,
+    "event": "relay_forward",
+    "time_ms": 125.09
+  },
+  {
+    "protocol": "udp",
+    "seq": 4,
+    "event": "relay_forward",
+    "time_ms": 213.052
+  },
+  {
+    "protocol": "udp",
+    "seq": 0,
+    "event": "received",
+    "time_ms": 86.275
+  },
+  {
+    "protocol": "udp",
+    "seq": 1,
+    "event": "received",
+    "time_ms": 86.43
+  },
+  {
+    "protocol": "udp",
+    "seq": 2,
+    "event": "received",
+    "time_ms": 86.582
+  },
+  {
+    "protocol": "udp",
+    "seq": 3,
+    "event": "received",
+    "time_ms": 86.691
+  },
+  {
+    "protocol": "udp",
+    "seq": 5,
+    "event": "received",
+    "time_ms": 86.797
+  },
+  {
+    "protocol": "udp",
+    "seq": 6,
+    "event": "received",
+    "time_ms": 86.903
+  },
+  {
+    "protocol": "udp",
+    "seq": 7,
+    "event": "received",
+    "time_ms": 87.007
+  },
+  {
+    "protocol": "udp",
+    "seq": 8,
+    "event": "received",
+    "time_ms": 87.112
+  },
+  {
+    "protocol": "udp",
+    "seq": 9,
+    "event": "received",
+    "time_ms": 87.214
+  },
+  {
+    "protocol": "udp",
+    "seq": 10,
+    "event": "received",
+    "time_ms": 87.321
+  },
+  {
+    "protocol": "udp",
+    "seq": 11,
+    "event": "received",
+    "time_ms": 87.433
+  },
+  {
+    "protocol": "udp",
+    "seq": 13,
+    "event": "received",
+    "time_ms": 87.481
+  },
+  {
+    "protocol": "udp",
+    "seq": 14,
+    "event": "received",
+    "time_ms": 87.68
+  },
+  {
+    "protocol": "udp",
+    "seq": 15,
+    "event": "received",
+    "time_ms": 87.828
+  },
+  {
+    "protocol": "udp",
+    "seq": 17,
+    "event": "received",
+    "time_ms": 87.894
+  },
+  {
+    "protocol": "udp",
+    "seq": 18,
+    "event": "corrupt",
+    "time_ms": 87.925
+  },
+  {
+    "protocol": "udp",
+    "seq": 19,
+    "event": "received",
+    "time_ms": 88.053
+  },
+  {
+    "protocol": "udp",
+    "seq": 20,
+    "event": "received",
+    "time_ms": 88.165
+  },
+  {
+    "protocol": "udp",
+    "seq": 21,
+    "event": "received",
+    "time_ms": 88.237
+  },
+  {
+    "protocol": "udp",
+    "seq": 22,
+    "event": "received",
+    "time_ms": 88.304
+  },
+  {
+    "protocol": "udp",
+    "seq": 24,
+    "event": "received",
+    "time_ms": 88.365
+  },
+  {
+    "protocol": "udp",
+    "seq": 25,
+    "event": "received",
+    "time_ms": 88.393
+  },
+  {
+    "protocol": "udp",
+    "seq": 28,
+    "event": "received",
+    "time_ms": 88.51
+  },
+  {
+    "protocol": "udp",
+    "seq": 29,
+    "event": "received",
+    "time_ms": 88.584
+  },
+  {
+    "protocol": "udp",
+    "seq": 30,
+    "event": "received",
+    "time_ms": 88.661
+  },
+  {
+    "protocol": "udp",
+    "seq": 31,
+    "event": "received",
+    "time_ms": 88.755
+  },
+  {
+    "protocol": "udp",
+    "seq": 32,
+    "event": "received",
+    "time_ms": 88.784
+  },
+  {
+    "protocol": "udp",
+    "seq": 33,
+    "event": "corrupt",
+    "time_ms": 88.889
+  },
+  {
+    "protocol": "udp",
+    "seq": 34,
+    "event": "corrupt",
+    "time_ms": 88.922
+  },
+  {
+    "protocol": "udp",
+    "seq": 35,
+    "event": "received",
+    "time_ms": 89.027
+  },
+  {
+    "protocol": "udp",
+    "seq": 27,
+    "event": "received",
+    "time_ms": 108.572
+  },
+  {
+    "protocol": "udp",
+    "seq": 35,
+    "event": "duplicate",
+    "time_ms": 108.63
+  },
+  {
+    "protocol": "udp",
+    "seq": 16,
+    "event": "received",
+    "time_ms": 125.213
+  },
+  {
+    "protocol": "udp",
+    "seq": 4,
+    "event": "received",
+    "time_ms": 213.25
+  }
+]

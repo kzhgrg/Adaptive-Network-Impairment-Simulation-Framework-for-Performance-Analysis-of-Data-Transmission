@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PacketLab — TCP / UDP Network Observatory</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-icon">⌁</div><div><strong>packetlab<span class="brand-dot">.</span></strong><small>NETWORK OBSERVATORY</small></div></div>
+    <div class="nav-caption">WORKSPACE</div>
+    <a class="nav-item active" href="#overview"><span>◫</span> Overview</a>
+    <a class="nav-item" href="#simulation"><span>◈</span> Simulation Lab</a>
+    <a class="nav-item" href="#analytics"><span>▥</span> Analytics</a>
+    <a class="nav-item" href="#records"><span>≡</span> Experiment Log</a>
+    <div class="sidebar-bottom"><div class="status-indicator"><i></i> Native simulator + real socket experiments</div><p>Local research workspace<br>TCP-like ARQ · UDP CBR</p><div class="sidebar-version">v1.0 · Research edition</div></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div class="breadcrumbs">Workspace <span>/</span> <strong>Overview</strong></div><div class="top-right"><span class="live-pill"><i></i> LOCAL ENVIRONMENT</span><span class="avatar">PL</span></div></header>
+    <div class="content" id="overview">
+      <div class="hero"><div><div class="eyebrow">NETWORK PERFORMANCE / RESEARCH DASHBOARD</div><h1>Understand every packet<span class="accent">.</span></h1><p>Explore how TCP and UDP behave under loss, latency, and congestion. Simulate, measure, compare.</p></div><div class="hero-badge"><div class="hero-badge-icon">⇄</div><div>TCP <span>vs</span> UDP<small>TRANSPORT PROTOCOLS</small></div></div></div>
+      <div class="section-title"><h2>Performance snapshot</h2><span class="snapshot-meta"><span id="snapshotLabel">Latest experiment</span><span id="modelLabel" aria-label="Simulation model"></span></span></div>
+      <div class="metrics-grid">
+        <div class="metric-card"><div class="metric-head">TCP THROUGHPUT <span class="mini-icon blue">↗</span></div><div class="metric-value" id="tcpThroughput">—</div><div class="metric-unit">kbps · delivered traffic</div><div class="metric-foot">TCP-like ARQ / FTP-style</div></div>
+        <div class="metric-card"><div class="metric-head">UDP THROUGHPUT <span class="mini-icon purple">↗</span></div><div class="metric-value" id="udpThroughput">—</div><div class="metric-unit">kbps · delivered traffic</div><div class="metric-foot">UDP / Constant Bit Rate</div></div>
+        <div class="metric-card"><div class="metric-head">TCP DELIVERY RATIO <span class="mini-icon blue">◉</span></div><div class="metric-value" id="tcpDelivery">—</div><div class="metric-unit">% · packet transmissions</div><div class="metric-foot">Source to destination</div></div>
+        <div class="metric-card"><div class="metric-head">UDP DELIVERY RATIO <span class="mini-icon purple">◉</span></div><div class="metric-value" id="udpDelivery">—</div><div class="metric-unit">% · unique datagrams</div><div class="metric-foot">Source to destination</div></div>
+      </div>
+      <div class="main-grid" id="simulation">
+        <section class="panel simulator"><div class="panel-header"><div><div class="eyebrow">EXPERIMENT CONTROL</div><h2>Simulation Lab</h2><p>Configure application-relay impairments and run real TCP/UDP sockets or simulations on your Mac.</p></div><span class="panel-icon">⚙</span></div>
+          <form id="simForm"><label class="engine-label">Simulation engine <select id="engine"><option value="real">REAL TCP + UDP sockets · macOS</option><option value="native">Native Python · educational model</option><option value="ns2">NS2 · optional installation</option></select></label><div class="field-row"><label>Packet loss <strong id="lossLabel">2%</strong><input type="range" id="loss" min="0" max="20" value="2" step="1"></label><label>Link delay <strong id="delayLabel">20 ms</strong><input type="range" id="delay" min="0" max="200" value="20" step="5"></label></div><div class="field-row"><label>Corruption <strong id="corruptionLabel">0%</strong><input type="range" id="corruption" min="0" max="30" value="0" step="1"></label><label>Duplication <strong id="duplicationLabel">0%</strong><input type="range" id="duplication" min="0" max="30" value="0" step="1"></label></div><div class="field-row"><label>Reordering <strong id="reorderingLabel">0%</strong><input type="range" id="reordering" min="0" max="50" value="0" step="1"></label></div><div class="field-row field-row-bottom"><label>Queue size <input type="number" id="queue" min="1" max="10000" value="20" required></label><label>Random seed <input type="number" id="seed" min="0" max="1000000" value="7" required></label></div><button class="primary-button" id="runBtn" type="submit">▶ &nbsp; Run simulation <span>↗</span></button><button class="secondary-button" id="batchBtn" type="button">Run standard experiment suite</button><div class="form-message" id="message" role="status">Ready to simulate.</div></form>
+        </section>
+        <section class="panel topology"><div class="panel-header"><div><div class="eyebrow">LIVE TOPOLOGY MODEL</div><h2>Network architecture</h2><p>Two flows sharing a modeled 1 Mbps bottleneck.</p></div><span class="topology-chip">6 NODES</span></div>
+          <svg viewBox="0 0 540 260" role="img" aria-label="TCP and UDP sources connect to router 1, a bottleneck link to router 2, and their respective destinations">
+            <defs><linearGradient id="lineFade" x1="0" x2="1"><stop stop-color="#5aa7ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+            <g fill="none" stroke="#40516a" stroke-width="2.5"><path d="M84 64 L207 130 L332 130 L455 64"/><path d="M84 199 L207 130 L332 130 L455 199"/></g><path d="M207 130 L332 130" stroke="url(#lineFade)" stroke-width="5" stroke-dasharray="8 5"/>
+            <g class="node"><rect x="45" y="42" width="78" height="44" rx="12"/><rect x="45" y="177" width="78" height="44" rx="12"/><rect x="416" y="42" width="78" height="44" rx="12"/><rect x="416" y="177" width="78" height="44" rx="12"/></g>
+            <g class="router"><circle cx="207" cy="130" r="27"/><circle cx="332" cy="130" r="27"/></g><g class="node-symbol" text-anchor="middle"><text x="84" y="70">TCP</text><text x="84" y="205">UDP</text><text x="455" y="70">TCP</text><text x="455" y="205">UDP</text><text x="207" y="136">R1</text><text x="332" y="136">R2</text></g><g class="node-caption" text-anchor="middle"><text x="84" y="33">SOURCE</text><text x="84" y="240">SOURCE</text><text x="455" y="33">DESTINATION</text><text x="455" y="240">DESTINATION</text><text x="270" y="110">1 Mbps</text><text x="270" y="167">BOTTLENECK</text></g>
+          </svg><div class="legend"><span><i class="legend-dot blue-dot"></i> TCP-like ARQ</span><span><i class="legend-dot purple-dot"></i> UDP CBR</span><span><i class="legend-line"></i> Shared link</span></div>
+        </section>
+      </div>
+      <section class="panel analytics" id="analytics"><div class="panel-header"><div><div class="eyebrow">COMPARATIVE INTELLIGENCE</div><h2>Protocol performance</h2><p>Metrics from the selected experiment.</p></div><select id="scenarioSelect" aria-label="Select experiment"><option value="">No experiments yet</option></select></div><div class="chart-grid"><div class="chart-block"><h3>Throughput <span>kbps</span></h3><div id="throughputChart" class="chart"></div></div><div class="chart-block"><h3>Average delay <span>ms</span></h3><div id="delayChart" class="chart"></div></div><div class="chart-block"><h3>Delivery ratio <span>%</span></h3><div id="deliveryChart" class="chart"></div></div><div class="chart-block"><h3>Packets not received <span>count</span></h3><div id="lossChart" class="chart"></div></div></div><div class="note">REAL mode uses actual localhost TCP and UDP sockets with application-layer relay impairments; this does NOT emulate kernel TCP segment loss, retransmissions, or congestion control. Native mode is an educational discrete-event model: stop-and-wait reliable ARQ versus UDP CBR, NOT a real TCP stack implementation or real network measurement. NS2 mode (optional) uses TCP Reno. Compare results within the same engine; do not present native results as actual TCP stack measurements.</div></section>
+      <section class="panel records" id="records"><div class="panel-header"><div><div class="eyebrow">EXPERIMENT HISTORY</div><h2>Experiment log</h2><p>Native experiments save JSON and CSV; optional NS2 also produces trace and NAM files.</p></div><a class="export-button" href="/api/export.csv">↓ Export CSV</a></div><div class="table-scroll"><table><thead><tr><th>SCENARIO</th><th>LOSS</th><th>DELAY</th><th>QUEUE</th><th>TCP KBPS</th><th>UDP KBPS</th><th>STATUS</th></tr></thead><tbody id="experimentRows"><tr><td colspan="7" class="empty-row">No experiments yet. Run your first simulation above.</td></tr></tbody></table></div></section>
+      <footer>PACKETLAB <span>•</span> Built for network protocol research <span>•</span> Python / Flask / Optional NS2</footer>
+    </div>
+  </main>
+</div>
+<script src="/static/app.js?v=3"></script>
+</body></html>
